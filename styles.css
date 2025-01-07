@@ -1,0 +1,154 @@
+/* Reset */
+body, html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header img {
+    background-color: #f4f4f4;
+  }
+  .header {
+    background-color: #b70f0f;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .header .logo {
+    font-size: 60
+    px
+    ;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .nav ul li {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .nav ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav ul li a:hover {
+    
+    text-align: center;
+    background-color: #ff4500;
+    border-radius: 5px;
+  }
+  
+  /* Banner Section */
+  .banner {
+    background: url('https://cdnphoto.dantri.com.vn/NaX_qsqJ24U3rhh9wBaJveM-F1g=/zoom/1200_630/2020/08/31/dirty-coinsdocx-1598856114362.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+  }
+  
+  .banner .btn {
+    display: inline-block;
+    background-color: #ff4500;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .banner .btn:hover {
+    background-color: #e63900;
+    transform: scale(1.1);
+  }
+  
+  /* Products Section */
+  .products {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .products h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 200px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-item h3 {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .product-item p {
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  
+  /* Hover Effects */
+  .product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-item:hover h3 {
+    color: #ff4500;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
